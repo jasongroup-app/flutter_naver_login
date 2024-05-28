@@ -16,8 +16,9 @@ A new flutter plugin project.
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
+  s.resource_bundles = {'flutter_naver_login_privacy' => ['Resources/PrivacyInfo.xcprivacy']}
 
-  s.dependency 'naveridlogin-sdk-ios', '~> 4.1.0'
+  s.dependency 'naveridlogin-sdk-ios', '~> 4.2.1'
   s.ios.deployment_target = '8.0'
 
   s.platform = :ios, '8.0'
